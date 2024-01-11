@@ -11,9 +11,6 @@ import pandas as pd
 import os
 from waiter import get_time
 
-
-
-
 try:
     stop_words = set(stopwords.words('english'))
 except:
