@@ -1,0 +1,1 @@
+As currently set up, nothing here should ever need touching after the HCSOs csv file is added.
