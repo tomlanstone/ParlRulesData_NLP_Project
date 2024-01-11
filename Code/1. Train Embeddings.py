@@ -27,7 +27,7 @@ if __name__ == "__main__":
     results = Results(db_path)
     results.add_model_tab()
 
-    raw_data = HCSOs(data_dir)
+    raw_data = HCSOs(data_dir, version_name = None) ## If the file ending in _articles.csv is in the data directory, the HCSO's class will find it without being told
     raw_data.refine_data() ## Run the function to restructure the data to be more convenient for use
 
     try:
